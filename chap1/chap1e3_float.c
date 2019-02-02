@@ -10,6 +10,9 @@ int main(void)
   upper = 300;
   step = 20;
 
+  printf(" Fahr - Celsius\n");
+  printf("------------\n");
+
   fahr = lower;
   while(fahr <= upper) 
   {
