@@ -10,7 +10,7 @@ int main(void)
   int line_length = 0;
   char line[MAXLINE];
 
-  while ((line_length = get_line(line)) >= 1)
+  while ((line_length = get_line(line)) > 0)
     if (line_length >= THRESHOLD)
       printf("%s\n", line);
 
